@@ -5,6 +5,7 @@ while [ $x -ne 10 ]
 do
 if [ $x -eq 8 ]
 then
+echo "Best School"
 echo "Hi"
 else
 echo "Best School"
