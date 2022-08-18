@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#parses apache log file
+#group users and visitors in ip andhttp
+
+awk '{ print $1 " " $9}' apache-access.log | sort | uniq -c | sort -rn
